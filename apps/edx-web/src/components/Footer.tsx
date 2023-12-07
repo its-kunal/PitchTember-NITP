@@ -9,6 +9,10 @@ export default function Footer() {
       heading: "About",
       links: [
         {
+          name: "Docs",
+          link: "docs"
+        },
+        {
           name: "Resources",
           link: "",
         },
