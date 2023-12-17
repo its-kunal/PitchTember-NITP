@@ -1,3 +1,6 @@
+import Image from "next/image";
+import WorkingImage from "@/assets/working.svg";
+
 export default function page({
   params,
 }: {
@@ -5,7 +8,7 @@ export default function page({
 }) {
   return (
     <div>
-      page of {params.reponame}, {params.username}
+      page of Reponame: {params.reponame}, username: {params.username}
     </div>
   );
 }
